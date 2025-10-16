@@ -1,15 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>To-do List - Refatorando</title>
-        <link rel="icon"
-            href="https://cache.refatorando.com/wp-content/uploads/2023/05/Favicon_Refatorando-1-100x100.png"
-            type="image/x-icon">
-        <link rel="stylesheet" href="public/css/styles.css">
-    </head>
-    <body class="">
-        <script src="public/js/script.js"></script>
-    </body>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List • Refatorando</title>
+  <link rel="icon" href="https://cache.refatorando.com/wp-content/uploads/2023/05/Favicon-Refatorando-1-180x180.png" type="image/x-icon">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>To-Do List</h1>
+      <a href="#" class="darkmode-toggle"></a>
+    </div>
+
+    <input type="text" placeholder="Insira o todo aqui...">
+
+    <div class="item item-checked">
+      <input type="checkbox" checked>
+      <!-- troque <div> por <span> para ficar consistente com os outros itens -->
+      <span>Ler 10 páginas de um livro</span>
+    </div>
+
+    <div class="item">
+      <input type="checkbox">
+      <span>Meditar</span>
+    </div>
+
+    <div class="item">
+      <input type="checkbox">
+      <span>Editar 2 vídeos</span>
+    </div>
+
+    <div class="item">
+      <input type="checkbox">
+      <span>Criar portfólio</span>
+    </div>
+
+    <div class="item">
+      <input type="checkbox">
+      <span>Academia</span>
+    </div>
+
+    <div class="footer">
+      <div>4 itens restantes</div>
+
+      <div class="filter">
+        <a href="#todos" class="active">Todos</a>
+        <a href="#ativos">Ativos</a>
+        <a href="#concluidos">Concluídos</a>
+      </div>
+
+      <a href="#reset">Limpeza Completa</a>
+    </div>
+  </div>
+
+  <!-- importe seu JS AQUI -->
+  <script src="./script.js"></script>
+</body>
 </html>
