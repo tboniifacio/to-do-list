@@ -49,7 +49,7 @@ h1 {
 .darkmode-toggle {
     width: 30px;
     height: 30px;
-    background: url(../images/moon.svg);
+    background: url(moon.svg);
     background-position: center;
     background-repeat: no-repeat;
     flex-grow: 0;
@@ -158,7 +158,7 @@ body.darkmode {
 .darkmode .darkmode-toggle {
     width: 30px;
     height: 30px;
-    background: url(../images/sun.svg);
+    background: url(sun.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
