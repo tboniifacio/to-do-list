@@ -7,6 +7,8 @@ Esse é o código inicial para o desenvolvimento do projeto da To-do list.
 - Básico sobre internet
 - HTML 5
 - CSS 3
+- Javascript
+  
 
 Cursos recomendados:
 - https://plataforma.refatorando.com/cursos/internet/
