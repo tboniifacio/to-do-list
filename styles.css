@@ -20,7 +20,7 @@ body {
     justify-content: space-around;
     padding: 0 20px;
     margin: 0px;
-    background: url(../images/header.png);
+    background: url(header.png);
     background-repeat: no-repeat;
     background-position: top center;
     font-family: Ubuntu;
